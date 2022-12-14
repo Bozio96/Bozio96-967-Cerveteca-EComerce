@@ -1,0 +1,113 @@
+#contenedor{
+    justify-content: center;
+}
+
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+.logo{
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.btn-card{
+    background-image: radial-gradient(rgb(238, 73, 73),rgb(117, 28, 28));
+    border: black;
+}
+
+.btn-card:hover{
+    background-image: radial-gradient(red, black);
+}
+
+.card{
+    margin: 5px;
+    background-image: radial-gradient(rgb(46, 46, 46),rgb(17, 17, 17));
+    color: white;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body{
+    background-image: radial-gradient(rgb(131, 131, 131),rgb(65, 65, 65));
+    overflow-x: hidden;
+}
+
+
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+/* CARRITO */
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-image: linear-gradient(to right, rgb(29, 29, 29), rgb(92, 92, 92));
+    color: white;
+}
+.parrafo{
+    font-weight: 600;
+    font-style: italic;
+}
+.modal-title{
+    color: white;
+}
+
+.modal-header button{
+    background-image: radial-gradient(red,black);
+    color: white;
+}
+
+.modal-footer{
+    color: white;
+}
+
+/* BOTONES DEL CARRITO */
+#vaciarCarrito{
+    background-image: radial-gradient(rgb(121, 2, 2),rgb(54, 0, 0));
+}
+#vaciarCarrito:hover{
+    background-image: radial-gradient(rgb(167, 1, 1),rgb(124, 0, 0));
+}
+
+#procesarCompra{
+    background-image: radial-gradient(rgb(1, 59, 1), rgb(0, 26, 2)) ;
+    border: 1px solid green;
+}
+#procesarCompra:hover{
+    background-image: radial-gradient(rgb(1, 116, 1), rgb(1, 66, 6));
+}
+
+#btnCerrar{
+    border:1px solid rgb(170, 170, 170)  ;
+}
+
+
+/* TABLA COMPRAR------------------------ */
+.letraBlanca{
+    color: white;
+}
